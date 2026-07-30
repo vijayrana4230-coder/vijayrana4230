@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Document</title>
+  <link rel="stylesheet" href="area of circle.css">
+</head>
+
+<body>
+  <script>
+    function area() {
+      let r = document.getElementById("value1").value;
+      document.getElementById("result").innerHTML = "circle area is = " + 3.14 * r * r;
+    }
+  </script>
+
+  <div id="box">
+    <h1>find the area of circle</h1>
+    <div id="inputbox">
+      <input type="text" id="value1" placeholder="Enter the circle redius"><br><br>
+    </div>
+    <div id="circle">
+      <button type="button" onclick="area()">Area</button>
+    </div>
+    <p id="result"></p>
+  </div>
+
+</body>
+
+</html>

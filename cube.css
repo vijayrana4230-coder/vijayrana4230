@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(14, 2, 40);
+  justify-content: center;
+  display: flex;
+
+}
+
+#box {
+  border: 3px solid black;
+  height: 300px;
+  width: 400px;
+  padding: 10px;
+  background-color: rgb(125, 110, 199);
+  border-radius: 10px;
+  box-shadow: 0 0 10px yellow;
+  margin: 30px;
+
+}
+
+h1 {
+  text-align: center;
+  color: #0c0d02;
+}
+
+#value1 {
+  height: 30px;
+  width: 300px;
+  border-radius: 10px;
+  border-color: rgb(4, 9, 23);
+}
+
+#box1,
+#inputbox {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px;
+
+}
+
+button {
+  background-color: rgb(80, 249, 80);
+  height: 30px;
+  width: 80px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+p {
+  font-size: 26px;
+  text-align: center;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>simple interest</title>
+  <link rel="stylesheet" href="simpleintreast.css">
+</head>
+
+<body>
+  <div id="container">
+    <h1>simple interest caluculator</h1>
+    <div id="inputbox">
+      <label for="prancipal">Enter the principal</label><br>
+      <input type="text" id="prancipal" class="clear" placeholder="principal"><br><br>
+      <label for="rate">Enter the rate</label><br>
+      <input type="text" id="rate" class="clear" placeholder="rate "><br><br>
+      <label for="time">Enter the time</label><br>
+      <input type="text" id="time" class="clear" placeholder="time"><br><br>
+    </div>
+    <div id="buttonbox">
+      <button type="simppleintreast" onclick="simple()">simple interest</button>
+      <button type="simppleintreast" onclick="clr()">clear</button>
+    </div>
+    <p id="result"></p>
+  </div>
+  <script>
+    function simple() {
+      let p = document.getElementById("prancipal").value;
+      let r = document.getElementById("rate").value;
+      let t = document.getElementById("time").value;
+      document.getElementById("result").innerHTML = "simple interest is = " + p * r * t / 100;
+    }
+    function clr() {
+      let c = document.getElementById("prancipal").value = " ";
+      let d = document.getElementById("rate").value = " ";
+      let e = document.getElementById("time").value = " ";
+      document.getElementById("result").innerHTML = " ";
+    }
+  </script>
+</body>
+
+</html>
